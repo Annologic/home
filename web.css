@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+  }
+  .logo_image {
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 150px;
+    height: 36px;
+    border-radius: 8px;
+    background-image: url(./image.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .navbar li {
+    display: inline;
+  }
+  .btext {
+    padding-right: 100px;
+    color: #030303;
+    font-size: 14px;
+    font-family: "Rubik";
+    line-height: 16px;
+  }
+  
+  .ctext {
+    padding-right: 100px;
+    color: #030303;
+    font-size: 14px;
+    font-family: "Rubik";
+    line-height: 16px;
+  }
+  
+  .cotext {
+    padding-right: 100px;
+    color: #030303;
+    font-size: 14px;
+    font-family: "Rubik";
+    line-height: 16px;
+  }
+
+  .btn {
+    cursor: pointer;
+    top: 15px;
+    right: 40px;
+    width: 120px;
+    height: 36px;
+    position: relative;
+    border-radius: 25px;
+    background-color: #030303;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Roboto";
+  }
+
+  .main-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #fff;
+  }
+  .main-header h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    padding: 50px 20px 20px;
+  }
+  .main-header p {
+    margin-bottom: 20px;
+    font-size: large;
+  }
+  .main-header-btn{
+    width: 120px;
+    height: 36px;
+    left: 100px;
+    border-radius: 55px;
+    background-color: #79c5e6;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Roboto";
+  }
+  .main-header img{
+    top: 138px;
+    left: 1500px;
+    width: 450px;
+    height: 450px;
+    border-radius: 8px;
+    background-image: url(./image.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;      
+  }
+  .catalogue, .featured {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .card {
+    display: inline-block;
+    margin: 10px;
+    width: calc(25% - 20px);
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F1F1F1;
+    padding: 20px;
+  }
+  .footer div {
+    margin-right: 20px;
+  }
+  /* Example media query for responsive design */
+  @media (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+  /* Add more specific styling rules below */
